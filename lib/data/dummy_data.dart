@@ -33,8 +33,7 @@ const dummyMeals = [
     title: 'Spaghetti with Tomato Sauce',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+    imageUrl: 'assets/images/image1.jpg',
     duration: 20,
     ingredients: [
       '4 Tomatoes',
@@ -64,8 +63,7 @@ const dummyMeals = [
     title: 'Toast Hawaii',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+    imageUrl: 'assets/images/image2.jpg',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
@@ -90,8 +88,7 @@ const dummyMeals = [
     title: 'Classic Hamburger',
     affordability: Affordability.pricey,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
+    imageUrl: 'assets/images/image3.jpg',
     duration: 45,
     ingredients: [
       '300g Cattle Hack',
@@ -119,8 +116,7 @@ const dummyMeals = [
     title: 'Wiener Schnitzel',
     affordability: Affordability.luxurious,
     complexity: Complexity.challenging,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
+    imageUrl: 'assets/images/image4.jpg',
     duration: 60,
     ingredients: [
       '8 Veal Cutlets',
@@ -156,8 +152,7 @@ const dummyMeals = [
     title: 'Salad with Smoked Salmon',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
+    imageUrl: 'assets/images/image5.jpg',
     duration: 15,
     ingredients: [
       'Arugula',
@@ -188,8 +183,7 @@ const dummyMeals = [
     title: 'Delicious Orange Mousse',
     affordability: Affordability.affordable,
     complexity: Complexity.hard,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
+    imageUrl: 'assets/images/image6.jpg',
     duration: 240,
     ingredients: [
       '4 Sheets of Gelatine',
@@ -221,8 +215,7 @@ const dummyMeals = [
     title: 'Pancakes',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
+    imageUrl: 'assets/images/image7.jpg',
     duration: 20,
     ingredients: [
       '1 1/2 Cups all-purpose Flour',
@@ -250,8 +243,7 @@ const dummyMeals = [
     title: 'Creamy Indian Chicken Curry',
     affordability: Affordability.pricey,
     complexity: Complexity.challenging,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
+    imageUrl: 'assets/images/image8.jpg',
     duration: 35,
     ingredients: [
       '4 Chicken Breasts',
@@ -281,8 +273,7 @@ const dummyMeals = [
     title: 'Chocolate Souffle',
     affordability: Affordability.affordable,
     complexity: Complexity.hard,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+    imageUrl: 'assets/images/image9.jpg',
     duration: 45,
     ingredients: [
       '1 Teaspoon melted Butter',
@@ -328,8 +319,7 @@ const dummyMeals = [
     title: 'Asparagus Salad with Cherry Tomatoes',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    imageUrl: 'assets/images/image10.jpg',
     duration: 30,
     ingredients: [
       'White and Green Asparagus',
@@ -358,8 +348,7 @@ const dummyMeals = [
     title: 'Chicken Tacos',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_1280.jpg',
+    imageUrl: 'assets/images/image11.jpg',
     duration: 25,
     ingredients: [
       '2 Chicken Breasts',
@@ -390,8 +379,7 @@ const dummyMeals = [
     title: 'Crème Brûlée',
     affordability: Affordability.luxurious,
     complexity: Complexity.challenging,
-    imageUrl:
-        'https://natashaskitchen.com/wp-content/uploads/2020/02/Creme-Brule-Recipe-2.jpg',
+    imageUrl: 'assets/images/image12.jpg',
     duration: 120,
     ingredients: [
       '2 Cups Heavy Cream',
@@ -420,8 +408,7 @@ const dummyMeals = [
     title: 'Garlic Shrimp Pasta',
     affordability: Affordability.pricey,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/18/19/12/pasta-3547078_1280.jpg',
+    imageUrl: 'assets/images/image13.jpg',
     duration: 30,
     ingredients: [
       '300g Linguine',
@@ -451,8 +438,7 @@ const dummyMeals = [
     title: 'Quinoa Buddha Bowl',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://www.myweekendkitchen.in/wp-content/uploads/2019/02/Vegan_Quinoa_buddha_bowl_with_avocado_dressing.png',
+    imageUrl: 'assets/images/image13.jpg',
     duration: 35,
     ingredients: [
       '1 Cup Quinoa',
@@ -482,8 +468,7 @@ const dummyMeals = [
     title: 'Mac & Cheese',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://www.seriouseats.com/thmb/Foltr0ifRqgCqFasGm_s7wvzYOo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20241107-SEA-The-Food-Labs-Ultra-Gooey-Stovetop-Mac-and-Cheese-Recipe-MorganHuntGlaze-2-16a276ff0ce34f7e988b0b74c37cd229.jpg',
+    imageUrl: 'assets/images/image14.png',
     duration: 25,
     ingredients: [
       '250g Macaroni',
@@ -512,8 +497,7 @@ const dummyMeals = [
     title: 'BBQ Ribs',
     affordability: Affordability.pricey,
     complexity: Complexity.challenging,
-    imageUrl:
-        'https://keviniscooking.com/wp-content/uploads/2024/03/321-Ribs-Smoking-or-Grilling-square.jpg',
+    imageUrl: 'assets/images/image15.jpg',
     duration: 240,
     ingredients: [
       '1 Rack Pork Ribs',
@@ -542,8 +526,7 @@ const dummyMeals = [
     title: 'Butternut Squash Soup',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2022/01/Butternut-Squash-Soup-4-scaled.jpg?fit=1170%2C1753&ssl=1',
+    imageUrl: 'assets/images/image16.jpg',
     duration: 45,
     ingredients: [
       '1 Butternut Squash',
@@ -572,8 +555,7 @@ const dummyMeals = [
     title: 'Mango Sticky Rice',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://assets.epicurious.com/photos/62d6c5130fc696fea8e55a9c/1:1/w_1920,c_limit/MangoStickyRice_RECIPE_04142022_9683_final.jpg',
+    imageUrl: 'assets/images/image18.jpg',
     duration: 60,
     ingredients: [
       '1 Cup Sticky Rice',
@@ -600,8 +582,7 @@ const dummyMeals = [
     title: 'Beef Enchiladas',
     affordability: Affordability.affordable,
     complexity: Complexity.challenging,
-    imageUrl:
-        'https://www.recipetineats.com/tachyon/2016/06/Beef-Enchiladas_main.jpg?resize=887%2C1241&zoom=0.73',
+    imageUrl: 'assets/images/image19.jpg',
     duration: 50,
     ingredients: [
       '500g Ground Beef',
@@ -630,8 +611,7 @@ const dummyMeals = [
     title: 'French Toast',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://www.allrecipes.com/thmb/0kDTPPpSsiJMC4zJQOPulL-nH0U=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ALR-recipe-16895-fluffy-french-toast-hero-01-ddmfs-4x3-7fd61e054f2c4f0f868b7ab0dd8767ae.jpg',
+    imageUrl: 'assets/images/image20.jpg',
     duration: 15,
     ingredients: [
       '4 Slices Bread',

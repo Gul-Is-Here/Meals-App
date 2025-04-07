@@ -32,19 +32,18 @@ class MealItem extends StatelessWidget {
           children: [
             Stack(
               children: [
-                const SizedBox(
-                  height: 220,
-                  width: double.infinity,
-                  child: Center(child: CircularProgressIndicator()),
-                ),
+                // const SizedBox(
+                //   height: 220,
+                //   width: double.infinity,
+                //   child: Center(child: CircularProgressIndicator()),
+                // ),
                 ClipRRect(
                   borderRadius: const BorderRadius.only(
                     topLeft: Radius.circular(16),
                     topRight: Radius.circular(16),
                   ),
-                  child: FadeInImage(
-                    placeholder: MemoryImage(kTransparentImage),
-                    image: NetworkImage(meal.imageUrl),
+                  child: Image.asset(
+                    meal.imageUrl,
                     fit: BoxFit.cover,
                     height: 220,
                     width: double.infinity,
